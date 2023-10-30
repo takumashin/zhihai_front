@@ -1,0 +1,55 @@
+.subnav {
+  position: relative;
+  a {
+    display: block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #fff;
+    user-select: none;
+  }
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  &:hover {
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      width: 40px;
+      left: 50%;
+      bottom: 0;
+      height: 3px;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 24px;
+  user-select: none;
+  .contact-text {
+    margin-right: 16px;
+    font-size: 16px;
+  }
+  .contact-num {
+    font-size: 28px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+}

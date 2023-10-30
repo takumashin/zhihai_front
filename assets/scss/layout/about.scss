@@ -1,0 +1,35 @@
+.about-content {
+  background: linear-gradient(268deg, #0055BE 12.07%, #0A0A0A 51.49%, #4C5A6E 90.9%);
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 50px 50px;
+  box-sizing: border-box;
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+}
+
+.about-btn {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 50px;
+  &:hover {
+    background: #fff;
+    color: #0055BE;
+    transition: all 0.3s ease-in-out;
+  }
+}

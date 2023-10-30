@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'lmzt';
+  font-weight: normal;
+  src: url('assets/fonts/lmzt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'nst';
+  font-weight: normal;
+  src: url('assets/fonts/nst.otf') format('opentype');
+}
+
+.title-font {
+  font-family: 'lmzt' !important;
+  font-size: 16px;
+  font-style: normal;
+}
